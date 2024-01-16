@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    border-bottom: 0.1px solid rgb(73,76,78);
+  
+    padding: 0 70px;
+    .logo{
+        padding:30px 0 ;
+        border-right: 0.1px solid rgb(73,76,78);
+        padding-right: 70px;
+        .text{
+            font-family: "Outfit";
+            font-weight: bold;
+            font-size: 36px;
+            color: white;
+            span{
+                color: #FFC515;
+            }
+        }
+        
+    }
+    .links{
+        display: flex;
+        gap: 80px;
+        padding:30px 70px ;
+        justify-content: center;
+        align-items: center;
+        .link{
+            text-decoration: none;
+            color: white;
+            font-family: "Outfit";
+            
+
+        }
+        .link:hover{
+            color: #FFC515;
+
+
+    }
+    
+}
+.contact{
+    padding:30px 0 ;
+    padding-left: 70px;
+    border-left: 0.1px solid rgb(73,76,78);
+        font-family: "Outfit";
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    .fa-phone{
+        color: white;
+    }
+    p{
+        color: #FFC515;
+    }
+    span{
+        color: white;
+    }
+}
+}

@@ -1,0 +1,47 @@
+section#Testimonials{
+    background-image: url("https://preview.colorlib.com/theme/pulse/img/review-bg.jpg.webp");
+    height: 78vh;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    padding: 130px 0;
+    align-items: center;
+    font-family: "Outfit";
+    justify-content: center;
+    .section-head{
+        width: 30%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+.fa-ice-cream{
+    font-size: 60px;
+    color: white;
+}
+p{
+    color: white;
+    font-size: 48px;
+}
+    }
+    .desc{
+        color: white;
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 18px;
+        gap: 40px;
+        .name{
+            display: flex;
+            justify-content: center;
+            p{
+                color: #FFC515;
+            }
+            span{
+                color: white;
+            }
+        }
+
+    }
+}
