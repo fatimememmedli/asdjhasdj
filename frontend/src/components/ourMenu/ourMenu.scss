@@ -1,93 +1,90 @@
-section#OurMenu{
-    background-image: url("https://preview.colorlib.com/theme/pulse/img/menu-bg.jpg.webp");
-    height: 100vh;
+section#OurMenu {
+  background-image: url("https://preview.colorlib.com/theme/pulse/img/menu-bg.jpg.webp");
+  // height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding: 130px 0;
+  align-items: center;
+  font-family: "Outfit";
+  justify-content: center;
+  width: 100%;
+  .section-head {
+    width: 30%;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 70px;
-    padding: 130px 0;
-    align-items: center;
-    font-family: "Outfit";
+    gap: 15px;
+    // justify-content: center;
+    .fa-utensils {
+      font-size: 60px;
+      color: white;
+    }
+    p {
+      color: white;
+      font-size: 48px;
+      text-align: center;
+    }
+  }
+  .filter-head {
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+
+    p {
+      color: white;
+      transition: 0.3s;
+    }
+  }
+  .items {
+    display: flex;
     justify-content: center;
-    width: 100%;
-    .section-head{
-        width: 30%;
-        align-items: center;
+    .box {
+      width: 80%;
+      display: flex;
+      flex-wrap: wrap;
+      //   justify-content: space-between;
+      justify-content: center;
+      gap: 40px;
+      .item {
+        width: 47%;
         display: flex;
         flex-direction: column;
-        gap: 15px;
-        // justify-content: center;
-.fa-utensils{
-    font-size: 60px;
-    color: white;
-}
-p{
-    color: white;
-    font-size: 48px;
-}
-    }
-    .filter-head{
-        display: flex;
-        gap: 30px;
-        font-size: 16px;
-        
-
-        p{
-            color:white;
-            transition: 0.3s;
+        gap: 7px;
+        cursor: pointer;
+        .item-head {
+          display: flex;
+          justify-content: space-between;
+          p {
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+          }
+          .fa-heart {
+            color: white;
+          }
         }
-      
-    }
-    .items{
-        display: flex;
-        justify-content: center;
-        .box{
-        width: 80%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 40px;
-            .item{
-                width: 47%;
-                display: flex;
-                flex-direction: column;
-                gap: 7px;
-                .item-head{
-                    display: flex;
-                    justify-content: space-between;
-                    p{
-                        color: white;
-                        font-size: 18px;
-                        font-weight: 500;
-                    }
-                    .fa-heart{
-                        color: white;
-    
-                    }
-                }
-                .item-foot{
-                    display: flex;
-                    justify-content: space-between;
-    p{
-        color: #7C7E7E;
-    
-    }
-    span{
-        color:white;
-        font-weight: 500;
-    
-    }
-                }
-            }
+        .item-foot {
+          display: flex;
+          justify-content: space-between;
+          p {
+            color: #7c7e7e;
+          }
+          span {
+            color: white;
+            font-weight: 500;
+          }
         }
+      }
     }
-.button {
+  }
+  .button {
     padding: 30px 0;
     button {
-        padding: 20px 70px;
-        background-color:#FFC515 ;
-        font-size: 18px;
-        font-weight: 500;
+      padding: 20px 70px;
+      background-color: #ffc515;
+      font-size: 18px;
+      font-weight: 500;
     }
-}
-    
+  }
 }

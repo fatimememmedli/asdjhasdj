@@ -2,18 +2,20 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import "./navbar.scss";
-function Navbar() {
+import "./navbarTwo.scss";
+function NavbarTwo() {
   return (
-    <nav>
+    <nav id="navbartwo">
       <div className="logo">
         <p className="text">
           Pulse <span>.</span>
         </p>
       </div>
       <div className="links">
-        <Link className="link">Home</Link>
-        <Link to="add" className="link">
+        <Link to="/" className="link">
+          Home
+        </Link>
+        <Link to="/add" className="link">
           Add
         </Link>
         <Link className="link">Restaurant</Link>
@@ -32,4 +34,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavbarTwo;
